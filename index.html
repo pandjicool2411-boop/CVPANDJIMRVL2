@@ -1,0 +1,1146 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Penting agar layout mengikuti ukuran layar HP -->
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Pandji Ilma Zahfa — MARVEL CV</title>
+
+    <meta
+        name="description"
+        content="CV personal dan profil Pandji Ilma Zahfa, Mahasiswa Ilmu Komputer di Universitas Negeri Medan."
+    >
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <div class="marvel-bg" aria-hidden="true">
+        <span class="energy energy-1"></span>
+        <span class="energy energy-2"></span>
+        <span class="energy energy-3"></span>
+        <span class="speed-lines"></span>
+    </div>
+    <div class="click-burst" id="clickBurst" aria-hidden="true"></div>
+    <div class="page-transition" id="pageTransition" aria-hidden="true">
+        <span class="transition-logo">PZ</span>
+        <span class="transition-line"></span>
+    </div>
+
+    <!-- ==================================================
+         NAVBAR
+    ================================================== -->
+
+    <header class="navbar" id="navbar">
+
+        <div class="nav-container">
+
+            <a href="#beranda" class="logo marvel-logo" aria-label="Pandji CV">
+                <span class="logo-box">PZ</span><span class="logo-text">CV</span>
+            </a>
+
+
+            <nav class="nav-menu" id="navMenu">
+
+                <a href="#beranda" class="nav-link active">
+                    Beranda
+                </a>
+
+                <a href="#tentang" class="nav-link" data-section="#tentang">
+                    Tentang
+                </a>
+
+                <a href="#pendidikan" class="nav-link" data-section="#pendidikan">
+                    Pendidikan
+                </a>
+
+                <a href="#keahlian" class="nav-link" data-section="#keahlian">
+                    Keahlian
+                </a>
+
+                <a href="#hobi" class="nav-link" data-section="#hobi">
+                    Hobi
+                </a>
+
+                <a href="#citacita" class="nav-link" data-section="#citacita">
+                    Cita-Cita
+                </a>
+
+                <a href="#pengalaman" class="nav-link" data-section="#pengalaman">
+                    Pengalaman
+                </a>
+
+                <a href="#kontak" class="nav-link" data-section="#kontak">
+                    Kontak
+                </a>
+
+            </nav>
+
+
+            <div class="nav-actions">
+
+                <button
+                    class="theme-button"
+                    id="themeButton"
+                    aria-label="Ubah tema"
+                >
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+
+
+                <button
+                    class="menu-button"
+                    id="menuButton"
+                    aria-label="Buka menu"
+                >
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+
+    <main>
+
+
+        <!-- ==================================================
+             01 — BERANDA
+        ================================================== -->
+
+        <section class="hero section" id="beranda">
+
+            <div class="container hero-grid">
+
+
+                <!-- KIRI -->
+
+                <div class="hero-content">
+
+                    <p class="eyebrow">
+
+                        <span></span>
+
+                        <b class="hero-tag">ORIGIN STORY</b> · MAHASISWA ILMU KOMPUTER
+
+                    </p>
+
+
+                    <h1>
+                        Pandji
+                        <br>
+                        <em>Ilma Zahfa.</em>
+                    </h1>
+
+
+                    <p class="hero-description">
+
+                        Mahasiswa Ilmu Komputer di Universitas
+                        Negeri Medan yang masih terus mendalami
+                        dunia web development, sedikit demi
+                        sedikit, sambil terus belajar hal baru.
+
+                    </p>
+
+                    <div class="hero-dossier">
+                        <span>FILE</span>
+                        <strong>PANDJI-Z / 011</strong>
+                        <span class="dossier-status">ACTIVE</span>
+                    </div>
+
+                    <div class="hero-buttons">
+
+                        <a
+                            href="#tentang"
+                            class="button button-primary"
+                        >
+                            Tentang Saya
+
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+
+
+                        <!-- Taruh file PDF CV di assets/cv-pandji.pdf agar tombol ini berfungsi -->
+                        <a
+                            href="assets/cv-pandji.pdf"
+                            class="button button-secondary"
+                            download
+                        >
+                            Unduh CV
+
+                            <i class="fa-solid fa-download"></i>
+                        </a>
+
+                    </div>
+
+
+                    <div class="hero-social">
+
+                        <a
+                            href="https://github.com/PandjiZs"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="GitHub"
+                        >
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+
+
+                        <a
+                            href="https://instagram.com/theycallmepand"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="Instagram"
+                        >
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+
+                        <a
+                            href="https://wa.me/6281265155386"
+                            target="_blank"
+                            rel="noopener"
+                            aria-label="WhatsApp"
+                        >
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+
+                <!-- KANAN — FOTO -->
+
+                <div class="hero-image-wrapper">
+
+                    <div class="hero-image">
+
+                        <!--
+                            MASUKKAN FOTO LU DI:
+
+                            assets/foto-profil.jpeg
+                        -->
+
+                        <img
+                            src="assets/foto-profil.jpeg"
+                            alt="Foto profil Pandji Ilma Zahfa"
+                        >
+
+                    </div>
+
+
+                    <div class="image-label">
+
+                        <span>BASED IN</span>
+
+                        <strong>Kota Medan</strong>
+
+                    </div>
+
+
+                    <div class="hero-number">
+                        01
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             02 — TENTANG
+        ================================================== -->
+
+        <section
+            class="section section-border"
+            id="tentang"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        02
+                    </span>
+
+
+                    <div>
+
+                        <p class="section-label">
+                            TENTANG SAYA
+                        </p>
+
+
+                        <h2>
+                            Sedikit tentang
+                            <span>saya.</span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="about-grid">
+
+
+                    <div class="about-intro">
+
+                        <p>
+                            Hai semuanya, kenalin nama saya
+                            Pandji Ilma Zahfa, biasa dipanggil
+                            Pandji.
+                        </p>
+
+                    </div>
+
+
+
+                    <div class="about-text">
+
+                        <p>
+                            Saya sedang menempuh pendidikan
+                            sebagai mahasiswa aktif Ilmu Komputer
+                            di Universitas Negeri Medan — kampus
+                            tercinta.
+                        </p>
+
+
+                        <p>
+                            Saat ini saya masih terus mendalami
+                            dunia web development, sedikit demi
+                            sedikit, sambil terus belajar hal
+                            baru setiap harinya.
+                        </p>
+
+                        <p class="about-extra">
+                            <strong>Mission:</strong> terus berkembang, berani mencoba,
+                            dan mengubah rasa penasaran terhadap teknologi menjadi
+                            karya nyata yang bisa dibanggakan.
+                        </p>
+
+
+                        <div class="about-info">
+
+
+                            <div>
+
+                                <span>
+                                    Nama
+                                </span>
+
+                                <strong>
+                                    Pandji Ilma Zahfa
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span>
+                                    Status
+                                </span>
+
+                                <strong>
+                                    Mahasiswa Ilmu Komputer
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span>
+                                    Domisili
+                                </span>
+
+                                <strong>
+                                    Kota Medan
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span>
+                                    Tempat dan Tanggal Lahir
+                                </span>
+
+                                <strong>
+                                    Medan, 24 November 2007
+                                </strong>
+
+                            </div>
+
+                            <div>
+
+                                <span>
+                                    Alamat
+                                </span>
+
+                                <strong>
+                                    Jl. Taut No.61
+                                </strong>
+
+                            </div>
+
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             03 — PENDIDIKAN
+        ================================================== -->
+
+        <section
+            class="section section-border"
+            id="pendidikan"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        03
+                    </span>
+
+
+                    <div>
+
+                        <p class="section-label">
+                            PENDIDIKAN
+                        </p>
+
+
+                        <h2>
+                            Perjalanan
+                            <span>pendidikan saya.</span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="education-list">
+
+
+                    <!-- PENDIDIKAN 1 -->
+
+                    <article class="education-item">
+
+                        <div class="education-year">
+                            2025 — SEKARANG
+                        </div>
+
+
+                        <div class="education-content">
+
+                            <span>
+                                PERGURUAN TINGGI
+                            </span>
+
+
+                            <h3>
+                                Universitas Negeri Medan
+                            </h3>
+
+
+                            <p>
+                                Ilmu Komputer
+                            </p>
+
+
+                            <small>
+                                Kota Medan, Indonesia
+                            </small>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PENDIDIKAN 2 -->
+
+                    <article class="education-item">
+
+                        <div class="education-year">
+                            2022 — 2025
+                        </div>
+
+
+                        <div class="education-content">
+
+                            <span>
+                                SEKOLAH MENENGAH ATAS
+                            </span>
+
+
+                            <h3>
+                                SMAN 8 Medan
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PENDIDIKAN 3 -->
+
+                    <article class="education-item">
+
+                        <div class="education-year">
+                            2019 — 2022
+                        </div>
+
+
+                        <div class="education-content">
+
+                            <span>
+                                SEKOLAH MENENGAH PERTAMA
+                            </span>
+
+
+                            <h3>
+                                MTsN 2 Medan
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+
+
+                    <!-- PENDIDIKAN 4 -->
+
+                    <article class="education-item">
+
+                        <div class="education-year">
+                            2013 — 2019
+                        </div>
+
+
+                        <div class="education-content">
+
+                            <span>
+                                SEKOLAH DASAR
+                            </span>
+
+
+                            <h3>
+                                SDIT Zahira
+                            </h3>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             04 — KEAHLIAN
+        ================================================== -->
+
+        <section
+            class="section section-border"
+            id="keahlian"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        04
+                    </span>
+
+
+                    <div>
+
+                        <p class="section-label">
+                            KEAHLIAN
+                        </p>
+
+
+                        <h2>
+                            Hal yang
+                            <span>saya kuasai.</span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <!--
+                    BAGIAN INI SENGAJA KOSONG.
+
+                    Nanti lu bisa masukkan skill sendiri.
+                -->
+
+                <div class="skills-empty">
+
+                    <div class="empty-icon">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+
+                    <p>
+                        Masih sedang mendalami sebagai
+                        Web Developer... hehe
+                    </p>
+
+
+                    <span>
+                        Terus belajar sedikit demi sedikit —
+                        skill akan ditambahkan seiring waktu.
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             05 — HOBI & KESUKAAN
+        ================================================== -->
+
+        <section
+            class="section section-border"
+            id="hobi"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        05
+                    </span>
+
+
+                    <div>
+
+                        <p class="section-label">
+                            HOBI &amp; KESUKAAN
+                        </p>
+
+
+                        <h2>
+                            Hal-hal yang
+                            <span>saya suka.</span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="hobi-grid">
+
+                    <div class="hobi-block">
+
+                        <span class="hobi-key">
+                            Hobi
+                        </span>
+
+                        <div class="hobi-chips">
+                            <span>Travelling</span>
+                            <span>Main Game</span>
+                            <span>Iseng-iseng buat program</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="hobi-block">
+
+                        <span class="hobi-key">
+                            Warna Favorit
+                        </span>
+
+                        <div class="hobi-chips">
+                            <span>Biru</span>
+                            <span>Putih</span>
+                            <span>Hitam</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="hobi-block">
+
+                        <span class="hobi-key">
+                            Makanan Favorit
+                        </span>
+
+                        <div class="hobi-chips">
+                            <span>Nasi Goreng</span>
+                            <span>Sate Padang</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="hobi-block">
+
+                        <span class="hobi-key">
+                            Minuman Favorit
+                        </span>
+
+                        <div class="hobi-chips">
+                            <span>Teh Manis Dingin</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="hobi-block">
+
+                        <span class="hobi-key">
+                            Genre Film
+                        </span>
+
+                        <div class="hobi-chips">
+                            <span>Action</span>
+                            <span>Horror</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="hobi-block">
+
+                        <span class="hobi-key">
+                            Artis Favorit
+                        </span>
+
+                        <div class="hobi-chips">
+                            <span>Raim Laode</span>
+                            <span>Raissa Anggiani</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="hobi-block">
+
+                        <span class="hobi-key">
+                            Game Favorit
+                        </span>
+
+                        <div class="hobi-chips">
+                            <span>BloodStrike</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             06 — CITA-CITA
+        ================================================== -->
+
+        <section
+            class="section section-border"
+            id="citacita"
+        >
+
+            <div class="container">
+
+
+                <div class="dream-section">
+
+
+                    <div class="dream-number">
+                        06
+                    </div>
+
+
+                    <div class="dream-content">
+
+                        <p class="section-label">
+                            CITA-CITA
+                        </p>
+
+
+                        <h2>
+                            Pamer lanyard
+                            <span>BUMN ala gen z.</span>
+                        </h2>
+
+
+                        <p class="dream-description">
+
+                            Saya ingin bekerja di BUMN atau
+                            menjadi web developer, supaya hidup
+                            terjamin di masa yang akan datang.
+
+                        </p>
+
+
+                        <div class="dream-list">
+
+                            <div>
+                                <span>Target ke Depan</span>
+                                <p>
+                                    Bisa memahami dan membuat
+                                    project web tanpa bantuan
+                                    coding dari AI.
+                                </p>
+                            </div>
+
+
+                            <div>
+                                <span>Ingin Dicapai</span>
+                                <p>
+                                    Lulus kuliah dengan predikat
+                                    Cumlaude. Amin 🤲
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             07 — PENGALAMAN
+        ================================================== -->
+
+        <section
+            class="section section-border"
+            id="pengalaman"
+        >
+
+            <div class="container">
+
+
+                <div class="section-heading">
+
+                    <span class="section-number">
+                        07
+                    </span>
+
+
+                    <div>
+
+                        <p class="section-label">
+                            PENGALAMAN
+                        </p>
+
+
+                        <h2>
+                            Perjalanan
+                            <span>saya.</span>
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+
+                <div class="timeline">
+
+
+                    <!-- PENGALAMAN 1 -->
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-date">
+                            KELAS 3 SMA
+                        </div>
+
+
+                        <div class="timeline-content">
+
+                            <span>
+                                TITIK AWAL
+                            </span>
+
+
+                            <h3>
+                                Bingung Pilih Jurusan
+                            </h3>
+
+
+                            <p>
+                                Sebelum masuk universitas, saya
+                                sebenarnya tidak pernah berpikir
+                                untuk mengambil jurusan yang
+                                berkaitan dengan komputer (IT),
+                                karena belum pernah mempelajari
+                                cara membuat program dan sempat
+                                merasa itu tidak bisa saya
+                                lakukan. Tapi saat ditanya
+                                teman-teman dan guru, "mau ambil
+                                jurusan apa nanti?", saya mulai
+                                sadar IT akan sangat dibutuhkan
+                                di masa depan.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- PENGALAMAN 2 -->
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-date">
+                            AWAL KULIAH
+                        </div>
+
+
+                        <div class="timeline-content">
+
+                            <span>
+                                ADAPTASI
+                            </span>
+
+
+                            <h3>
+                                Sempat Takut, Ternyata Salah
+                            </h3>
+
+
+                            <p>
+                                Jujur, saat pertama kali kuliah
+                                saya sempat takut tidak punya
+                                teman, atau khawatir lingkungan
+                                kampus membawa dampak buruk.
+                                Ternyata saya salah besar —
+                                teman-teman di kampus baik
+                                banget, asik, dan saling
+                                support.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+
+
+                    <!-- PENGALAMAN 3 -->
+
+                    <div class="timeline-item">
+
+                        <div class="timeline-date">
+                            SEKARANG
+                        </div>
+
+
+                        <div class="timeline-content">
+
+                            <span>
+                                SAAT INI
+                            </span>
+
+
+                            <h3>
+                                Saling Menyemangati
+                            </h3>
+
+
+                            <p>
+                                Berkat dorongan teman-teman
+                                kampus, kami saling menyemangati
+                                untuk menjadi lebih baik —
+                                sambil terus belajar Ilmu
+                                Komputer dan mendalami web
+                                development.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- ==================================================
+             07 — KONTAK
+        ================================================== -->
+
+        <section
+            class="contact-section"
+            id="kontak"
+        >
+
+            <div class="container contact-container">
+
+
+                <p class="section-label">
+                    08 — KONTAK
+                </p>
+
+
+                <h2>
+                    Punya sesuatu
+                    <br>
+                    untuk dibicarakan?
+                </h2>
+
+
+                <p class="contact-description">
+
+                    Terbuka untuk kenalan, kolaborasi belajar,
+                    atau sekadar ngobrol soal teknologi.
+
+                </p>
+
+
+                <a
+                    href="mailto:pandjicool2411@gmail.com"
+                    class="contact-email"
+                >
+
+                    pandjicool2411@gmail.com
+
+                    <i
+                        class="fa-solid fa-arrow-up-right-from-square"
+                    ></i>
+
+                </a>
+
+
+                <div class="contact-social">
+
+                    <a href="https://github.com/PandjiZs" target="_blank" rel="noopener">
+                        GitHub
+                    </a>
+
+
+                    <a href="https://instagram.com/theycallmepand" target="_blank" rel="noopener">
+                        Instagram
+                    </a>
+
+
+                    <a href="https://wa.me/6281265155386" target="_blank" rel="noopener">
+                        WhatsApp
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <!-- ==================================================
+         FOOTER
+    ================================================== -->
+
+    <footer>
+
+        <div class="container footer-container">
+
+            <p>
+                © 2026 Pandji Ilma Zahfa.
+            </p>
+
+
+            <p>
+                Dibuat dengan HTML, CSS & JavaScript.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
